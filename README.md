@@ -1,6 +1,6 @@
 # Form ✨
 
-A simple and interactive web form built with HTML, CSS, and JavaScript. This project demonstrates form validation, localStorage usage, and managing saved entries dynamically.
+A simple and interactive web form built with HTML, CSS, and JavaScript. This project demonstrates form validation and localStorage usage.
 
 ## 🚀 Features
 
