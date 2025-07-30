@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="form-container">
+    <form id="myForm" novalidate autocomplete="off">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><div class="input-row"><input type="text" id="name" /></div></td>
+        </tr>
+
+        <tr>
+          <td><label>Gender:</label></td>
+          <td>
+            <div class="input-row">
+              <label><input type="radio" name="gender" value="Male" /> Male</label>
+              <label><input type="radio" name="gender" value="Female" checked/> Female</label>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="phn">Phone No:</label></td>
+          <td><div class="input-row"><input type="tel" id="phn" maxlength="15" value="+91 " /></div></td>
+        </tr>
+
+        <tr>
+          <td><label>Preferences:</label></td>
+          <td>
+            <div class="input-row">
+              <label><input type="checkbox" name="prefer" value="Red" checked/> Red</label>
+              <label><input type="checkbox" name="prefer" value="Green" /> Green</label>
+              <label><input type="checkbox" name="prefer" value="Blue" /> Blue</label>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><div class="input-row"><input type="text" id="address" maxlength="140" /></div></td>
+        </tr>
+
+        <tr>
+          <td><label for="zipcode">Zip code:</label></td>
+          <td><div class="input-row"><input type="text" id="zipcode" maxlength="6" /></div></td>
+        </tr>
+
+        <tr>
+          <td><label for="country">Country:</label></td>
+          <td>
+            <div class="input-row">
+              <select id="country">
+                <option value="">Choose...</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Africa">Africa</option>
+                <option value="Korea">Korea</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><div class="input-row"><input type="email" id="email" /></div></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <button type="reset" style="margin-right: 40px;">Clear</button>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
